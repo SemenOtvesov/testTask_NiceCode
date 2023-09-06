@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+        "@js/*": ["maket/js/*"],
+        "@maket/*": ["maket/*"],
+        "@docs/*": ["docs/*"],
+        "@core/*": ["maket/js/core/*"],
+        "@components/*": ["maket/js/components/*"],
+        "@middleComponents/*": ["maket/js/middleComponents/*"],
+        "@mainFunctions/*": ["maket/js/mainFunctions/*"],
+    }
+  },
+}
